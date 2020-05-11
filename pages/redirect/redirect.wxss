@@ -1,0 +1,11 @@
+/* pages/redirect/redirect.wxss */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container image {
+  width:200rpx;
+  height:200rpx;
+  padding: 5rpx;
+}

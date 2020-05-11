@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button> 精致女孩剁手必备 </button>
+    <text bindtap="CheckMe" data-num = "420">点我去bindData页</text>
+    <navigator url = '/pages/redirect/redirect?id=666'>点击跳转到redirect页面</navigator>
+    <navigator url = '/pages/LogIn/LogIn'>点击跳转到登陆界面</navigator>
+  </view>
+  <view class="listMenu">
+    <view class="menu">
+      <image src="/pages/static/tabBar/button1.png"></image>
+      <text>定制</text>
+    </view> 
+    <view class="menu">
+      <image src="/pages/static/tabBar/button1.png"></image>
+      <text>定制</text>
+    </view> 
+    <view class="menu">
+      <image src="/pages/static/tabBar/button1.png"></image>
+      <text>定制</text>
+    </view> 
+    <view class="menu">
+      <image src="/pages/static/tabBar/button1.png"></image>
+      <text>定制</text>
+    </view>  
+  </view>
+  
+</view>

@@ -1,0 +1,24 @@
+/**index.wxss**/
+image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+}
+.listMenu {
+  /*height: 2000rpx;*/
+  width: 750rpx;
+  display: flex;
+  /*规定元素的主轴方向*/
+  flex-direction: row;
+
+  /*规定元素在主轴方向的排列方式 flex-start/flex-end/space-around/space-between */
+  justify-content: space-around;
+
+  /* 规定元素在副轴上的排列方式 */
+  align-items: center;
+}
+.listMenu .menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

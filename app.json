@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/redirect/redirect",
+    "pages/bindData/bindData",
+    "pages/LogIn/LogIn"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#E6E6FA",
+    "navigationBarTitleText": "CST剁手必备",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/static/tabBar/button2.jpg",
+        "selectedIconPath": "pages/static/tabBar/button2.jpg"
+      },
+      {
+        "pagePath": "pages/bindData/bindData",
+        "text": "数据页",
+        "iconPath": "pages/static/tabBar/button3.jpg",
+        "selectedIconPath": "pages/static/tabBar/button3.jpg"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

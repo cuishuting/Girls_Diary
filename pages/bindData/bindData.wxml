@@ -1,0 +1,12 @@
+<!--pages/bindData/bindData.wxml-->
+<text>{{message}}</text>
+<button bindtap="changeData">点我换信息</button>
+<button>第二个按钮</button>
+<button bindtap="getInfo">点击获取用户信息</button>
+<view>当前用户名：{{name}}</view>
+<view>用户头像
+  <image src="{{path}}" style="height:200rpx; width:200rpx"></image>
+</view>
+<view>商品</view>
+<view wx:for="{{dataList}}">{{index}} -- {{item}}</view>
+<view wx:for="{{bossInfo}}">{{index}} : {{item}}</view>
